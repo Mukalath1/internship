@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Classification and ranking Prediction</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body background="/static/image/background1.jpg">
+<!-- Input Form -->
+<div  class="input form">
+  <form action="{{url_for('predict')}}"method="post" id="input head">
+    <h1 id="heading">Classification and ranking Prediction Form</h1>
+    <h3 id="input">Enter BP</h3>
+    <input type="text" name="BP" placeholder="battery_power">
+    <h3 id="input">Enter CS</h3>
+    <input type="text" name="CS" placeholder="clock_speed">
+    <h3 id="input">Enter IM</h3>
+    <input type="text" name="IM" placeholder="int_memory">
+    <h3 id="input">Enter MD</h3>
+    <input type="text" name="MD" placeholder="m_dep">
+    <h3 id="input">Enter MW</h3>
+    <input type="text" name="MW" placeholder="mobile_wt">
+    <h3 id="input">Enter PH</h3>
+    <input type="text" name="PH" placeholder="px_height">
+    <h3 id="input">Enter PW</h3>
+    <input type="text" name="PW" placeholder="px_weight">
+    <h3 id="input">Enter RM</h3>
+    <input type="text" name="RM" placeholder="ram">
+    <h3 id="input">Enter SH</h3>
+    <input type="text" name="SH" placeholder="sc_height">
+    <h3 id="input">Enter SW</h3>
+    <input type="text" name="SW" placeholder="sc_weight">
+    <h3 id="input">Enter TT</h3>
+    <input type="text" name="TT" placeholder="talk_time">
+    <br>
+    <br>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+ 
+</div>
+   
+</body>
+</html>
